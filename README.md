@@ -1,8 +1,8 @@
 # GridMod
 Hello dear folks! Looking for a fully modular, open source, Pygame 3d-Engine? 
 Well this may be a good start. 
-GridMod is initialized by classes and methods, 
-and is capable of displaying static custom three dimensional shapes.
+GridMod is initialized by and methods capable of displaying,
+static custom three dimensional shapes for now.
 
 By groupping nodes, vectors and matrices, and by applying common matrix operations 
 to those vertices we get to display predefined 3d objects 
