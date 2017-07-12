@@ -1,5 +1,5 @@
 # GridMod
-Hello dear folks! Looking for a fully modular, open source, Pygame 3d-Engine? 
+Hello folks! Looking for a fully modular, open source, Pygame 3d-Engine? 
 Well this may be a good start. 
 GridMod is initialized by and methods capable of displaying,
 static custom three dimensional shapes for now.
