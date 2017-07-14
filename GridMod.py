@@ -9,7 +9,7 @@ import random
 def eye_matrix(dx=0,dy=0,dz=0):
     return np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[dx,dy,dz,1]])
 def eye_translate(vector,distance):
-    unit_vector = np.hstack([unitVector(vector) * distance,1])
+    unit_vector = np.hstack([vector * distance,1])
     return np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],unit_vector])
 def eye_scale(s,cx=0,cy=0,cz=0):
     return np.array([[s,0,0,0],[0,s,0,0],[0,0,s,0],[cx*(1-s),cy*(1-s),cz*(1-s),1]])
